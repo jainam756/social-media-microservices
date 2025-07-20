@@ -1,0 +1,47 @@
+# ===================
+# Global exclusions
+# ===================
+
+# Ignore all actual config files across services
+**/src/main/resources/application.yml
+**/src/main/resources/application.properties
+
+# Maven build
+**/target/
+
+# Logs
+**/*.log
+**/logs/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Environment files (if any)
+.env
+*.env
+
+# Mac OS and Linux
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Node / frontend (if applicable)
+node_modules/
+dist/
+
+# Backup files
+*~
+*.swp
+*.bak
+*.tmp
